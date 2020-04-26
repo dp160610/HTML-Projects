@@ -69,8 +69,8 @@ header{
         margin: 15px 0 30px;
     }
     .box-push{
-        transform: translateY(1000%);
+        transform: translateY(90%);
     }
     .box-spread{
-        transform: translateY(50%);
+        transform: translateY(90%);
     }
