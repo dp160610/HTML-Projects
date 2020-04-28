@@ -86,7 +86,7 @@ TODO:
         } else { // If result is infinity, set off by dividing by zero
           resultNum = "Look at what you've done";
           el('#calculator').classList.add("broken"); // Break calculator
-          el('#reset').classList.add("show"); // And show reset button
+        
         }
       }
   
@@ -125,10 +125,6 @@ TODO:
   
     // Add click event to clear button
     el("#clear").onclick = clearAll;
-  
-    // Add click event to reset button
-    el("#reset").onclick = function() {
-      window.location = window.location;
-    };
+    
   
   }());
