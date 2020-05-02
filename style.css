@@ -1,76 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap');
-
 body{
-    font-family: 'poppins', sans-serif;
-    background-color: hsl(0,0%,98%);
+    background-image: url('https://img.wallpapersafari.com/desktop/1680/1050/74/71/9be8Tz.jpg');
+    background-size: 1700px 1700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-family: "Palatino Linotype" ,"Book Palatino", serif;
 }
-*{
-    box-sizing: border-box;
+#weatherContainer{
+    background-color: rgba(0,0,0,0.25);
+    box-shadow: 1px 1px 5px black ;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 200px;
+    margin-left: 600px;
 }
-header{
-    margin: 30px auto;
-    max-width: 500px;
-    text-align: center;
+#weatherContainer h1{
+    margin: 5px;
+    font-size: 42px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-    .head{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-   h2{
-       font-weight: 200;
-       margin: 0;
-   }
-   h2 span{
-       font-weight: 600;
-   }
-    #edit{
-        margin-top: 0px;
-        padding-top: 0px;
-        line-height: 0px;
-       
-    }
-    img{
-        height: 40px;
-        width: 40px;
-    }
-    h4 {
-        color: hsl(229, 6%,66%);
-    }
-    p {
-        color: hsl(229, 6%,66%);
-    }
-    .container{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin: 0 auto;
-           max-width: 1140px;
-    }
-    .box{
-    background-color: white;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.23);
+#searchContainer{
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+#searchContainer input{
+    width: 200px;
+}
+#searchContainer button{
+    background-color: rgba(1, 159, 198);
+    width: 75px;
+}
+.searchControl{
+    box-shadow: 2px 2px 5px black;
+    border: none;
     border-radius: 5px;
-    border-top: 3px solid purple;
-    border-left: transparent;
-    padding: 30px;  
-    width: 350px;
-    margin: 15px;  
-    }
-    .box h2{
-    margin: 0px;    
-    }
-    .box img{
-        display: block;
-        margin-left: auto;
-    }
-    .box p{
-        font-size: 14px;
-        margin: 15px 0 30px;
-    }
-    .box-push{
-        transform: translateY(90%);
-    }
-    .box-spread{
-        transform: translateY(90%);
-    }
+    padding: 5px;
+}
+#weatherMain{
+    display: block;
+    margin-bottom: 20px;
+}
+#weatherMain{
+    display: inline-block;
+}
+#weatherDescriptionHeader{
+    font-size: 28px;
+    vertical-align: 50%;
+
+}
+#temperature{
+    font-size: 38px;
+    vertical-align: 25%;
+}
+.bottomDetails{
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
+hr{
+    margin-bottom: 20px;
+}
