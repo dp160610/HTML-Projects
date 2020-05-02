@@ -1,50 +1,75 @@
 body{
-    background-color: #0a1f44;
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2015/07/16/nice-beach-suning-weather-hd-wallapaper.jpg");
+  background-size: 1700px 1700px;
 }
 .container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
 }
 h2{
-    font-weight: 900;
-    font-size: 80px;
-    color: #ffffff;
+  font-weight: 900;
+  font-size: 80px;
+  color: #ffffff;
 }
 input{
-    height: 60px;
-    width: 400px;
-    margin-left: 50px;
-    margin-top: 0px;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: rgba(1, 5px, 100px, 0.3);
-    background-color: #0a1f44;
-    color: #ffffff; 
-    font-size: 25px; 
+  height: 60px;
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 0px;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: rgba(1, 5px, 100px, 0.3);
+  background-color: #0a1f44;
+  color: #ffffff; 
+  font-size: 25px; 
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+  font-size: 25px;
+}
+span{
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  max-width: 450px;
+  min-height: 40px;
+}
+button{
+    color: #ffffff;
+    background-color: red;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+hr{
+  margin-bottom: 20px;
+}
+#weatherContainer{
+  background-color:yellow;
+  box-shadow: 1px 1px 5px black ;
+  padding: 50px;
+  border-radius: 10px;
+  position: absolute;
+  visibility: hidden;
+  margin-top: 100px;
+  margin-left: 600px;
+  width: 300px;
+}
+#weatherMain{
+  display: flex;
+  flex-direction: row;  
+}
+footer{
+    margin-top: 500px;
+    font-size: large;
+    margin-left: 1200px;
     color: red;
-    opacity: 1; /* Firefox */
-  }
-  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: red;
-    opacity: 1; /* Firefox */
-    font-size: 25px;
-  }
-  button{
-      color: #ffffff;
-      background-color: red;
-      width: 150px;
-      height: 60px;
-      border-radius: 20px;
-      margin-left: 40px;
-  }
-    
-  footer{
-      margin-top: 400px;
-      
-      margin-left: 1200px;
-      color: #ffffff;
-  }
+}
